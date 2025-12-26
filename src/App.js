@@ -1,6 +1,7 @@
 import "./App.css";
 import Accordian from "./Components/Accordian";
 import RandomColor from "./Components/Random-color";
+import StartRating from "./Components/StarRating";
 
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
       {/* <Accordian /> */}
 
       {/* random color */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+
+      <StartRating noOfStars={10}/>
+
     </div>
   );
 }
