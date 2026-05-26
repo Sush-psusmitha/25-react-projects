@@ -8,12 +8,12 @@ function App() {
   return (
     <div className="App">
       {/* Accordian */}
-      {/* <Accordian /> */}
+      <Accordian />
 
       {/* random color */}
-      {/* <RandomColor /> */}
+      <RandomColor />
 
-      {/* <StartRating noOfStars={10}/> */}
+      <StartRating noOfStars={10}/>
       <ImageSlider url = {'https://picsum.photos/v2/list'} page ={'1'} limit={"5"}/>
 
     </div>
